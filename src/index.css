@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: #242424de;
-  background: #FAF9F9;
+  background: #faf9f9;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -38,6 +38,3 @@ li {
 .heading {
   font-size: 1.5em;
 }
-
-/* MOVIE CARD */
-/* 
