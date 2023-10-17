@@ -86,7 +86,7 @@ Here is a little tutorial from the official [docs](https://reactrouter.com/en/ma
 ```js
 import { useNavigate } from "react-router-dom";
 
-const MyComponent = () => {
+export const MyComponent = () => {
   const navigate = useNavigate();
 
   const goToAboutPage = () => {
@@ -96,6 +96,27 @@ const MyComponent = () => {
   return <button onClick={goToAboutPage}>Go to About</button>;
 };
 ```
+
+### Navigate
+
+- Purpose: A hook used for extracting route parameters from the current URL.
+- How It Works: `useParams` is part of the react-router-dom package and allows you to access the parameters defined in your route's path.
+
+```js
+import { useParams } from "react-router-dom";
+
+export const ProductDetail = () => {
+  const { productId } = useParams();
+
+  return <div>Product ID: {productId}</div>;
+};
+```
+
+- In the above example, if the current URL matches a route like /products/:productId, useParams allows you to access the productId parameter from the URL.
+
+- This hook is particularly useful for dynamically displaying content based on URL parameters, such as showing details for a specific product when the product's ID is in the URL.
+
+- Remember to import useParams from react-router-dom and use it within a component that is rendered by a Route that includes route parameters.
 
 # React Router Exercise: Rolling Stones' Top 500 Songs
 
