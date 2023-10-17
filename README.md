@@ -16,6 +16,14 @@ Remember that React apps, by nature, are single-page applications (SPAs), where 
 
 - Nested Pages: React Router supports organizing your app into sections with multiple levels, making it easier to manage complex interfaces.
 
+## How to install a router in your react app ?
+
+Run this command:
+
+```js
+npm install react-router-dom
+```
+
 # React Router Exercise: Rolling Stones' Top 500 Songs
 
 Welcome to this lesson's exercise! We'll be diving into react-router-dom and harnessing the useParams() hook.
