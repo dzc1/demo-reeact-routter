@@ -9,7 +9,7 @@ export const MovieInfo = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    const api = "3da1dd30c1b3099b08e011c1507b568c";
+    const api = "b8b70837ecdf33d41538d9964f7c8a97";
     const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${api}&language=en-US`;
 
     const fetchMovies = async () => {
