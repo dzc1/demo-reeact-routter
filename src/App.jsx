@@ -11,6 +11,10 @@ export const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li className="app-li">
+              {/* Wrong approach using the react router */}
+              <a href="/movies">Movies using a tag</a>
+            </li>
+            <li className="app-li">
               <NavLink to="/movies">Movies</NavLink>
             </li>
             <li className="app-li">

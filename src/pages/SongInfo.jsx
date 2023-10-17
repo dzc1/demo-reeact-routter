@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import songsData from "../data/songs.json";
 
-function SongInfo({ title, artist, album, year }) {
+export const SongInfo = ({ title, artist, album, year }) => {
   const { songTitle } = useParams();
   const song = songsData.songs.find(
     (s) => s.title.toLowerCase().replace(/ /g, "-") === songTitle
@@ -24,6 +24,4 @@ function SongInfo({ title, artist, album, year }) {
       </div>
     </>
   );
-}
-
-export default SongInfo;
+};

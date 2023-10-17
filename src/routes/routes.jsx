@@ -1,7 +1,7 @@
 import { Route } from "react-router-dom";
-import Home from "../pages/Home";
+import { Home } from "../pages/Home";
 import { Movies } from "../pages/Movies";
-import SongInfo from "../pages/SongInfo";
+import { SongInfo } from "../pages/SongInfo";
 import { MovieInfo } from "../pages/MovieInfo";
 import { MyInfo } from "../pages/MyInfo";
 import { NotFound } from "../pages/NotFound";
