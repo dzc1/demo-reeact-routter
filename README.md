@@ -24,7 +24,7 @@ Run this command:
 npm install react-router-dom
 ```
 
-## Router components
+## Common Router components
 
 ### BrowserRouter
 
