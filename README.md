@@ -26,7 +26,7 @@ npm install react-router-dom
 
 ## Tutorial
 
-Here is a little tutorial from the official [doc](https://reactrouter.com/en/main/start/tutorial)
+Here is a little tutorial from the official [docs](https://reactrouter.com/en/main/start/tutorial)
 
 ## Common Router components
 
