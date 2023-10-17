@@ -97,7 +97,7 @@ export const MyComponent = () => {
 };
 ```
 
-### useParams Hooks
+### useParams Hook
 
 - Purpose: A hook used for extracting route parameters from the current URL.
 - How It Works: `useParams` is part of the react-router-dom package and allows you to access the parameters defined in your route's path.
