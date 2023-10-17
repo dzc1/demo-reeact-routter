@@ -6,11 +6,13 @@ export const Movies = () => {
 
   // Version 2
   useEffect(() => {
-    const api = "b8b70837ecdf33d41538d9964f7c8a97";
+    const apiEnv = import.meta.env.VITE_OPENDB_KEY;
+    //console.log(apiEnv);
+    //const api = "b8b70837ecdf33d41538d9964f7c8a97";
     const fetchMovies = async () => {
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/movie/popular?api_key=${api}&language=en-US&page=1`
+          `https://api.themoviedb.org/3/movie/popular?api_key=${apiEnv}&language=en-US&page=1`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
